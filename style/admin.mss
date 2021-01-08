@@ -6,8 +6,8 @@
 for low, middle and high zoom levels.
 Three attachments are used, with minor borders before major ones, and the thin centerline last, to handle
 overlapping borders correctly and allow each type to have a different level of opacity.
-Overlapping borders are hidden by a white background line, rendered before each line.
-Then all three layers are added to the rendering with comp-op: darken, so that the white lines will not show
+Overlapping borders are hidden by a black background line, rendered before each line.
+Then all three layers are added to the rendering with comp-op: lighten, so that the black lines will not show
 */
 
 #admin-low-zoom[zoom < 8],
@@ -309,10 +309,10 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   The following code prevents admin boundaries from being rendered on top of
   each other. Comp-op works on the entire attachment, not on the individual
   border. Therefore, this code generates an attachment containing a set of
-  @admin-boundaries/white dashed lines (of which only the top one is visible),
-  and with `comp-op: darken` the white part is ignored, while the
+  @admin-boundaries/black dashed lines (of which only the top one is visible),
+  and with `comp-op: lighten` the black part is ignored, while the
   @admin-boundaries colored part is rendered (as long as the background is not
-  darker than @admin-boundaries).
+  lighter than @admin-boundaries).
   The SQL has `ORDER BY admin_level`, so the boundary with the lowest
   admin_level is rendered on top, and therefore the only visible boundary.
   */
