@@ -16,7 +16,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   [admin_level = '2']::firstline {
     [zoom >= 8] {
       background/line-join: bevel;
-      background/line-color: white;
+      background/line-color: black;
       background/line-width: 3;
     }
     [zoom >= 9] { background/line-width: 3.5; }
@@ -30,7 +30,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   [admin_level = '2']::wideline {
     [zoom >= 4] {
       background/line-join: bevel;
-      background/line-color: white;
+      background/line-color: black;
       background/line-width: 1.2;
       line-join: bevel;
       line-color: @admin-boundaries;
@@ -81,7 +81,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   [admin_level = '2']::narrowline {
     [zoom >= 8] {
       background/line-join: bevel;
-      background/line-color: white;
+      background/line-color: black;
       background/line-width: 0.6;
       thin/line-join: bevel;
       thin/line-color: @admin-boundaries-narrow;
@@ -118,7 +118,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   [admin_level = '3']::firstline {
     [zoom >= 8] {
       background/line-join: bevel;
-      background/line-color: white;
+      background/line-color: black;
       background/line-width: 1.8;
     }
     [zoom >= 9] { background/line-width: 2.5; }
@@ -131,7 +131,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   [admin_level = '3']::wideline {
     [zoom >= 4] {
       background/line-join: bevel;
-      background/line-color: white;
+      background/line-color: black;
       background/line-width: 0.6;
       line-join: bevel;
       line-color: @admin-boundaries;
@@ -182,7 +182,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   [admin_level = '3']::narrowline {
     [zoom >= 10] {
       background/line-join: bevel;
-      background/line-color: white;
+      background/line-color: black;
       background/line-width: 0.8;
       thin/line-join: bevel;
       thin/line-color: @admin-boundaries-narrow;
@@ -212,7 +212,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   [admin_level = '4']::firstline {
     [zoom >= 8] {
       background/line-join: bevel;
-      background/line-color: white;
+      background/line-color: black;
       background/line-width: 1;
     }
     [zoom >= 9] { background/line-width: 1.5; }
@@ -225,7 +225,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   [admin_level = '4']::wideline {
     [zoom >= 4] {
       background/line-join: bevel;
-      background/line-color: white;
+      background/line-color: black;
       background/line-width: 0.4;
       line-color: @admin-boundaries;
       line-join: bevel;
@@ -277,7 +277,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   [admin_level = '4']::narrowline {
     [zoom >= 10] {
       background/line-join: bevel;
-      background/line-color: white;
+      background/line-color: black;
       background/line-width: 0.6;
       thin/line-color: @admin-boundaries-narrow;
       thin/line-width: 0.6;
@@ -318,11 +318,11 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   */
   ::firstline,
   ::wideline,
-  ::narrowline { comp-op: darken; }
+  ::narrowline { comp-op: lighten; }
 
   [admin_level = '5'][zoom >= 8]::firstline {
     background/line-join: bevel;
-    background/line-color: white;
+    background/line-color: black;
     background/line-width: 0.6;
     line-join: bevel;
     line-color: @admin-boundaries;
@@ -356,7 +356,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   }
   [admin_level = '6'][zoom >= 10]::firstline {
     background/line-join: bevel;
-    background/line-color: white;
+    background/line-color: black;
     background/line-width: 1;
     line-join: bevel;
     line-color: @admin-boundaries;
@@ -381,7 +381,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   [admin_level = '7']::firstline {
     [zoom >= 11] {
       background/line-join: bevel;
-      background/line-color: white;
+      background/line-color: black;
       background/line-width: 1.2;
       line-join: bevel;
       line-color: @admin-boundaries;
@@ -403,7 +403,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   [admin_level = '8']::firstline {
     [zoom >= 12] {
       background/line-join: bevel;
-      background/line-color: white;
+      background/line-color: black;
       background/line-width: 1.4;
       line-join: bevel;
       line-color: @admin-boundaries;
@@ -420,7 +420,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
 
   [admin_level = '9'][zoom >= 13]::firstline {
     background/line-join: bevel;
-    background/line-color: white;
+    background/line-color: black;
     background/line-width: 1.2;
     line-join: bevel;
     line-color: @admin-boundaries;
@@ -435,7 +435,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   }
   [admin_level = '10'][zoom >= 14]::firstline {
     background/line-join: bevel;
-    background/line-color: white;
+    background/line-color: black;
     background/line-width: 1.2;
     line-join: bevel;
     line-color: @admin-boundaries;
