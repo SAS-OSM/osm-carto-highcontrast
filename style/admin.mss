@@ -1,4 +1,4 @@
-@admin-boundaries: #f2f2f2; // Lch(47,30,327)
+@admin-boundaries: #969696; // Lch(47,30,327)
 @admin-boundaries-narrow: #e6e6e6; // Lch(42,35,327)
 @admin-boundaries-wide: #d9d9d9; // Lch(57,25,327)
 
