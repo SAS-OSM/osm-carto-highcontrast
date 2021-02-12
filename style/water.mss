@@ -3,7 +3,7 @@
 @glacier-line: #9cf;
 
 @waterway-text-repeat-distance: 200;
-
+/*
 #water-areas {
   [natural = 'glacier']::natural {
     [zoom >= 5] {
@@ -24,6 +24,8 @@
   [waterway = 'riverbank'] {
     [int_intermittent = 'no'] {
       polygon-fill: @water-color;
+      line-width: 1;
+      line-color: #969696;
       [way_pixels >= 4] { polygon-gamma: 0.75; }
       [way_pixels >= 64] { polygon-gamma: 0.6; }
     }
@@ -203,7 +205,7 @@
       text-placement: line;
       text-fill: @water-text;
       text-spacing: 400;
-      text-size: 10;
+      text-size: 12;
       text-halo-radius: @standard-halo-radius;
       text-halo-fill: @standard-halo-fill;
   }
@@ -211,7 +213,7 @@
   [lock != 'yes'][int_tunnel != 'yes'] {
     [waterway = 'river'][zoom >= 13] {
       text-name: "[name]";
-      text-size: 10;
+      text-size: 12;
       text-face-name: @oblique-fonts;
       text-fill: @water-text;
       text-halo-radius: @standard-halo-radius;
@@ -224,7 +226,7 @@
 
     [waterway = 'canal'][zoom >= 13] {
       text-name: "[name]";
-      text-size: 10;
+      text-size: 12;
       text-face-name: @oblique-fonts;
       text-fill: @water-text;
       text-halo-radius: @standard-halo-radius;
@@ -235,7 +237,7 @@
 
     [waterway = 'stream'][zoom >= 15] {
       text-name: "[name]";
-      text-size: 10;
+      text-size: 12;
       text-face-name: @oblique-fonts;
       text-fill: @water-text;
       text-halo-radius: @standard-halo-radius;
@@ -251,7 +253,7 @@
     [waterway = 'ditch'] {
       [zoom >= 15] {
         text-name: "[name]";
-        text-size: 10;
+        text-size: 12;
         text-face-name: @oblique-fonts;
         text-fill: @water-text;
         text-halo-radius: @standard-halo-radius;
@@ -267,7 +269,7 @@
   [natural = 'bay'][zoom >= 14],
   [natural = 'strait'][zoom >= 14] {
     text-name: "[name]";
-    text-size: 10;
+    text-size: 12;
     text-face-name: @oblique-fonts;
     text-fill: @water-text;
     text-halo-radius: @standard-halo-radius;
@@ -295,7 +297,7 @@
     [zoom >= 14][way_pixels <= 768000][feature = 'natural_strait'],
     [zoom >= 17][way_pixels <= 768000] {
       text-name: "[name]";
-      text-size: 10;
+      text-size: 12;
       text-wrap-width: 25; // 2.5 em
       text-line-spacing: -1.5; // -0.15 em
       [way_pixels > 12000],
@@ -322,3 +324,4 @@
     }
   }
 }
+*/
