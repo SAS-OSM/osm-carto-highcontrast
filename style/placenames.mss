@@ -41,10 +41,10 @@
 }
 
 #state-names {
-  [zoom >= 4][zoom < 7][way_pixels > 2000],
-  [zoom >= 7][way_pixels > 2000][way_pixels < 196000] {
+//[zoom >= 4][zoom < 7][way_pixels > 2000],
+  [zoom >= 6][way_pixels > 2000][way_pixels < 196000] {
     text-name: "[name]";
-    text-size: 10;
+    text-size: 12;
     text-wrap-width: 18; // 3.5 em
     text-line-spacing: -1.5; // -0.15 em
     text-margin: 7.0; // 0.7 em
@@ -82,15 +82,15 @@
 }
 
 #capital-names {
-  [zoom >= 4][zoom < 8][population > 600000],
-  [zoom >= 5][zoom < 8] {
+//[zoom >= 4][zoom < 8][population > 600000],
+  [zoom >= 6][zoom < 8] {
     shield-file: url('symbols/place/place-capital-6.svg');
     shield-text-dx: 6;
     shield-text-dy: 6;
     shield-name: '[name]';
     shield-face-name: @bold-fonts;
     shield-fill: @placenames;
-    shield-size: 11;
+    shield-size: 10;
     shield-wrap-width: 30; // 2.7 em
     shield-line-spacing: -1.6; // -0.15 em
     shield-margin: 7.7; // 0.7 em
@@ -107,23 +107,25 @@
       shield-wrap-width: 45; // 4.1 em
       shield-line-spacing: -1.1; // -0.10 em
     }
+/*
     [zoom >= 6] {
       shield-size: 12;
       shield-wrap-width: 60; // 5.0 em
       shield-line-spacing: -0.6; // -0.05 em
       shield-margin: 8.4; // 0.7 em
     }
+*/
     [zoom >= 7] {
       shield-file: url('symbols/place/place-capital-8.svg');
       shield-text-dx: 7;
       shield-text-dy: 7;
     }
   }
-  [zoom >= 8] {
+  [zoom >= 6] {
     text-name: '[name]';
     text-face-name: @bold-fonts;
     text-fill: @placenames;
-    text-size: 13;
+    text-size: 14;
     text-wrap-width: 33; // 5.0 em
     text-line-spacing: -0.65; // -0.05 em
     text-margin: 9.1; // 0.7 em
@@ -154,8 +156,8 @@
 
 #placenames-medium::high-importance {
   [category = 1][zoom < 14] {
-    [zoom >= 5][zoom < 6][score >= 3000000],
-    [zoom >= 6][zoom < 9][score >= 400000] {
+//  [zoom >= 5][zoom < 6][score >= 3000000],
+    [zoom >= 6][zoom < 9][score >= 600000] {
       shield-file: url('symbols/place/place-4.svg');
       shield-text-dx: 4;
       shield-text-dy: 4;
@@ -229,7 +231,7 @@
 
 #placenames-medium::medium-importance {
   [category = 1][score < 400000][zoom < 16] {
-    [zoom >= 6][zoom < 9][score >= 70000],
+//  [zoom >= 6][zoom < 9][score >= 70000],
     [zoom >= 8][zoom < 9] {
       shield-file: url('symbols/place/place-4.svg');
       shield-text-dx: 4;

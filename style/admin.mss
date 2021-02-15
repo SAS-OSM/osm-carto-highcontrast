@@ -210,6 +210,10 @@ Then all three layers are added to the rendering with comp-op: lighten, so that 
   }
 
   [admin_level = '4']::firstline {
+    [zoom >= 6] {
+      line-color: #969696;
+      line-width: 1;
+    }
     [zoom >= 8] {
       background/line-join: bevel;
       background/line-color: black;
@@ -239,6 +243,7 @@ Then all three layers are added to the rendering with comp-op: lighten, so that 
     [zoom >= 6] {
       background/line-width: 0.6;
       line-width: 0.6;
+      line-color: #969696;
     }
     [zoom >= 7] {
       background/line-width: 0.8;
