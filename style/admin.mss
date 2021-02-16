@@ -364,9 +364,9 @@ Then all three layers are added to the rendering with comp-op: lighten, so that 
     background/line-color: black;
     background/line-width: 1;
     line-join: bevel;
-    line-color: @admin-boundaries;
+    line-color: #969696;
     line-width: 1;
-    line-dasharray: 8,1.5,1.5,1.5;
+    line-dasharray: 4,2,1,2;
     line-clip: false;
     [zoom >= 11] {
       background/line-width: 1.4;
@@ -477,7 +477,7 @@ Then all three layers are added to the rendering with comp-op: lighten, so that 
     text-dy: -10;
   }
 }
-
+/*
 #protected-areas-text[zoom >= 13][way_pixels > 192000] {
   text-name: "[name]";
   text-face-name: @book-fonts;
@@ -503,6 +503,7 @@ Then all three layers are added to the rendering with comp-op: lighten, so that 
     [zoom >= 9] {
       polygon-opacity: .15;    
       polygon-fill: #c7ffad;
+*/      
 /*      
       // inner line
       ::wideline {
@@ -545,6 +546,16 @@ Then all three layers are added to the rendering with comp-op: lighten, so that 
         }
       }
 */
+/*
     }
+  }
+}
+*/
+
+#maritime-boundary[zoom >=6] {
+  [admin_level = '2'] {
+    line-color: #969696;
+    line-color: 1;
+    line-dasharray: 2,2;
   }
 }

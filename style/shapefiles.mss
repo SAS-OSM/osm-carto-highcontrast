@@ -1,7 +1,8 @@
 #necountries {
-  [zoom = 3] {
+  [zoom >= 3] {
     line-width: 1;
     line-color: #969696;
+    [zoom >= 10] { line-width: 3; }
   }
 }
 

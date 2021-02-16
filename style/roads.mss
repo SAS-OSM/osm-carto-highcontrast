@@ -395,7 +395,7 @@
     }
 
     [feature = 'highway_primary'] {
-      [zoom >= 12] {
+      [zoom >= 10] {
         line-color: @primary-low-zoom-casing;
         [zoom >= 13] {
           line-color: @primary-casing;
@@ -1128,7 +1128,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     }
     [feature = 'highway_motorway'][link != 'yes'][zoom >= 6][zoom < 12],
     [feature = 'highway_motorway'][link = 'yes'][zoom >= 10][zoom < 12],
-    [feature = 'highway_trunk'][link != 'yes'][zoom >= 7][zoom < 12],
+    [feature = 'highway_trunk'][link != 'yes'][zoom >= 8][zoom < 12],
     [feature = 'highway_trunk'][link = 'yes'][zoom >= 10][zoom < 12],
     [feature = 'highway_primary'][link != 'yes'][zoom >= 8][zoom < 12],
     [feature = 'highway_primary'][link = 'yes'][zoom >= 10][zoom < 12],
@@ -1143,7 +1143,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
       }
       [feature = 'highway_trunk'] {
         [zoom >= 6] { line-width: @trunk-width-z6 + 2 * @lowzoom-halo-width; }
-//      [zoom >= 7] { line-width: @trunk-width-z7 + 2 * @lowzoom-halo-width; }
+        [zoom >= 7] { line-width: @trunk-width-z7 + 2 * @lowzoom-halo-width; }
         [zoom >= 8] { line-width: @trunk-width-z8 + 2 * @lowzoom-halo-width; }
         [zoom >= 9] { line-width: @trunk-width-z9 + 2 * @lowzoom-halo-width; }
         [zoom >= 10] { line-width: @trunk-width-z10 + 2 * @lowzoom-halo-width; }
@@ -1412,7 +1412,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     }
 
     [feature = 'highway_trunk'] {
-      [zoom >= 7][link != 'yes'],
+      [zoom >= 8][link != 'yes'],
       [zoom >= 10] {
         line-width: @trunk-width-z6;
         line-color: @trunk-low-zoom;
@@ -1463,7 +1463,6 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     }
 
     [feature = 'highway_primary'] {
-      [zoom >= 8][link != 'yes'],
       [zoom >= 10] {
         line-width: @primary-width-z8;
         line-color: @primary-low-zoom;

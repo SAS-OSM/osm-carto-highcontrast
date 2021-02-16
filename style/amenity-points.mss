@@ -6,7 +6,7 @@
 @transportation-text: #0066ff;
 @accommodation-icon: @transportation-icon;
 @accommodation-text: @transportation-text;
-@airtransport: #b4b4b4; //also ferry_terminal
+@airtransport: #ffffff; //also ferry_terminal
 @health-color: #BF0000;
 @amenity-brown: #734a08;
 @gastronomy-icon: #C77400;
@@ -20,7 +20,7 @@
 @barrier-icon: #3f3f3f;
 @landform-color: #d08f55;
 @leisure-green: darken(@park, 60%);
-@protected-area: #008000;
+@protected-area: #B0FFC4;
 @aboriginal: #82643a;
 @religious-icon: #000000;
 
@@ -1350,6 +1350,9 @@
       marker-file: url('symbols/aerodrome.12.svg');
       marker-clip: false;
       marker-fill: @airtransport;
+      marker-line-color: #000000;
+      marker-line-width: 2;
+      marker-line-opacity: .75;
     }
   }
 
@@ -2114,6 +2117,7 @@
       [feature = 'leisure_nature_reserve'],
       [feature = 'boundary_protected_area'] {
         text-fill: @protected-area;
+	text-size: 11;
       }
     }
   }

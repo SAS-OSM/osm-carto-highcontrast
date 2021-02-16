@@ -4,9 +4,9 @@
 /*                                                                    */
 /* scripts/generate_road_colours.py > style/road-colors-generated.mss */
 /*                                                                    */
-@motorway-casing: #ffad69;
-@trunk-casing: #ffd86c;
-@primary-casing: #ffd86c;
+@motorway-casing: #969696;
+@trunk-casing: #969696;
+@primary-casing: #969696;
 @secondary-casing: #f4e6ab;
 @motorway-fill: #000000;
 @trunk-fill: #000000;
@@ -16,9 +16,9 @@
 @trunk-low-zoom: #000000;
 @primary-low-zoom: #000000;
 @secondary-low-zoom: #000000;
-@motorway-low-zoom-casing: #ffc799;
-@trunk-low-zoom-casing: #ffdd80;
-@primary-low-zoom-casing: #ffdd80;
+@motorway-low-zoom-casing: #969696;
+@trunk-low-zoom-casing: #969696;
+@primary-low-zoom-casing: #969696;
 @secondary-low-zoom-casing: #f9f1d2;
 @motorway-shield: #000;
 @trunk-shield: #000;
