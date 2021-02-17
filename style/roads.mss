@@ -2900,10 +2900,10 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
 }
 
 #roads-text-ref-low-zoom[zoom < 14] {
-  [highway = 'motorway'][zoom >= 11],
-  [highway = 'trunk'][zoom >= 12],
-  [highway = 'primary'][zoom >= 12],
-  [highway = 'secondary'][zoom >= 13] {
+  [highway = 'motorway'][zoom >= 10],
+  [highway = 'trunk'][zoom >= 11],
+  [highway = 'primary'][zoom >= 11],
+  [highway = 'secondary'][zoom >= 12] {
     shield-name: "[refs]";
     shield-size: @shield-size;
     shield-line-spacing: @shield-line-spacing;

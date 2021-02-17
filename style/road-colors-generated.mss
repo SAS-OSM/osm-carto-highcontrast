@@ -20,7 +20,7 @@
 @trunk-low-zoom-casing: #969696;
 @primary-low-zoom-casing: #969696;
 @secondary-low-zoom-casing: #f9f1d2;
-@motorway-shield: #000;
-@trunk-shield: #000;
-@primary-shield: #000;
-@secondary-shield: #000;
+@motorway-shield: #000000;
+@trunk-shield: #969696;
+@primary-shield: #969696;
+@secondary-shield: #969696;
