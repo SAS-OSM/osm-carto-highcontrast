@@ -1,7 +1,7 @@
 #necountries {
   [zoom >= 3] {
     line-width: 1;
-    line-color: #969696;
+    line-color: @contrast-color;
     [zoom >= 10] { line-width: 3; }
   }
 }
@@ -36,5 +36,5 @@
 
 #coastlines {
   line-width: 1;
-  line-color: #969696;
+  line-color: @contrast-color;
 }

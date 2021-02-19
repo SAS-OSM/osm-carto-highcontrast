@@ -211,7 +211,7 @@ Then all three layers are added to the rendering with comp-op: lighten, so that 
 
   [admin_level = '4']::firstline {
     [zoom >= 6] {
-      line-color: #969696;
+      line-color: @contrast-color;
       line-width: 1;
     }
     [zoom >= 8] {
@@ -243,7 +243,7 @@ Then all three layers are added to the rendering with comp-op: lighten, so that 
     [zoom >= 6] {
       background/line-width: 0.6;
       line-width: 0.6;
-      line-color: #969696;
+      line-color: @contrast-color;
     }
     [zoom >= 7] {
       background/line-width: 0.8;
@@ -364,7 +364,7 @@ Then all three layers are added to the rendering with comp-op: lighten, so that 
     background/line-color: black;
     background/line-width: 1;
     line-join: bevel;
-    line-color: #969696;
+    line-color: @contrast-color;
     line-width: 1;
     line-dasharray: 4,2,1,2;
     line-clip: false;
@@ -554,7 +554,7 @@ Then all three layers are added to the rendering with comp-op: lighten, so that 
 
 #maritime-boundary[zoom >=6] {
   [admin_level = '2'] {
-    line-color: #969696;
+    line-color: @contrast-color;
     line-color: 1;
     line-dasharray: 2,2;
   }

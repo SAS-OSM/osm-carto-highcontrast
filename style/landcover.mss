@@ -28,7 +28,7 @@
 
 // --- Transport ----
 
-@transportation-area: #969696;
+@transportation-area: @contrast-color;
 @apron: #dadae0;
 @garages: #dfddce;
 @parking: #eeeeee;

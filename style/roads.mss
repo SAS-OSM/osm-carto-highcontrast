@@ -25,7 +25,7 @@
 @access-marking-living-street: #cccccc;
 
 @default-casing: white;
-@tertiary-casing: #f4ed8b;
+@tertiary-casing: @contrast-color;
 @residential-casing: white;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;

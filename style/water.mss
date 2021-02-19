@@ -1,4 +1,4 @@
-@water-text: #ffffff;
+@water-text: #99f1ff;
 @glacier: #ddecec;
 @glacier-line: #9cf;
 
@@ -26,7 +26,7 @@
     [zoom >= 17][way_pixels <= 768000] {
       polygon-fill: @water-color;
       line-width: 1;
-      line-color: #969696;
+      line-color: @contrast-color;
     }
   }
 }

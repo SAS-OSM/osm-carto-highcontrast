@@ -19,8 +19,8 @@
 @advertising-grey: @man-made-icon;
 @barrier-icon: #3f3f3f;
 @landform-color: #d08f55;
-@leisure-green: darken(@park, 60%);
-@protected-area: #B0FFC4;
+@leisure-green: #b0ffc4;
+@protected-area: @leisure-green;
 @aboriginal: #82643a;
 @religious-icon: #000000;
 
@@ -2045,7 +2045,7 @@
     }
   }
 
-  [feature = 'landuse_military'],
+//[feature = 'landuse_military'],
   [feature = 'natural_wood'],
   [feature = 'landuse_forest'] {
     [zoom >= 8][way_pixels > 3000][is_building = 'no'],
@@ -2067,9 +2067,9 @@
       text-face-name: @landcover-face-name;
       text-halo-radius: @standard-halo-radius;
       text-halo-fill: @standard-halo-fill;
-      [feature = 'landuse_military'] {
-        text-fill: darken(@military, 40%);
-      }
+//    [feature = 'landuse_military'] {
+//      text-fill: darken(@military, 40%);
+//    }
       [feature = 'boundary_aboriginal_lands'] {
         text-fill: @aboriginal;
       }
@@ -2103,9 +2103,9 @@
       text-face-name: @landcover-face-name;
       text-halo-radius: @standard-halo-radius;
       text-halo-fill: @standard-halo-fill;
-      [feature = 'landuse_military'] {
-        text-fill: darken(@military, 40%);
-      }
+//    [feature = 'landuse_military'] {
+//      text-fill: darken(@military, 40%);
+//    }
       [feature = 'boundary_aboriginal_lands'] {
         text-fill: @aboriginal;
       }
@@ -2121,7 +2121,7 @@
       }
     }
   }
-
+/*
   [feature = 'military_danger_area'][is_building = 'no'] {
     [zoom >= 9][way_pixels > 3000],
     [zoom >= 17] {
@@ -2145,7 +2145,7 @@
       text-halo-fill: @standard-halo-fill;
     }
   }
-
+*/
   [feature = 'landuse_garages'][is_building = 'no'] {
     [zoom >= 13][way_pixels > 3000],
     [zoom >= 17] {

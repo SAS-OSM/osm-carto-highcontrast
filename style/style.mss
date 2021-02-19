@@ -7,3 +7,5 @@ Map {
 
 @standard-halo-radius: 1;
 @standard-halo-fill: rgba(0,0,0,0.5);
+
+@contrast-color: #969696;
