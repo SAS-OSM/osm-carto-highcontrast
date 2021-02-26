@@ -37,7 +37,7 @@ Stylesheet:
   - style/shapefiles.mss
   - style/landcover.mss
   - style/water.mss
-  - style/water-features.mss
+# - style/water-features.mss
   - style/road-colors-generated.mss
   - style/roads.mss
 # - style/power.mss
@@ -318,6 +318,14 @@ Layer:
         ) AS icesheet_outlines
     properties:
       minzoom: 5
+  - id: coastlines
+    geometry: linestring
+    <<: *extents
+    Datasource:
+      file: data/coastlines-split-3857/lines.shp
+      type: shape
+    properties:
+      maxzoom: 5
   - id: marinas-area
     geometry: polygon
     <<: *extents
@@ -1048,8 +1056,8 @@ Layer:
           FROM ne_110m_admin_0_boundary_lines_land
         ) AS necountries
     properties:
-      minzoom: 1
-      maxzoom: 3
+      minzoom: 3
+      maxzoom: 5
   - id: admin-low-zoom
     geometry: linestring
     <<: *extents
@@ -1103,6 +1111,24 @@ Layer:
         ) AS admin_high_zoom
     properties:
       minzoom: 13
+  - id: maritime-boundary
+    geometry: linestring
+    <<: *extents
+    Datasource:
+      <<: *osm2pgsql
+      table: |-
+        (SELECT
+            way,
+            admin_level
+          FROM planet_osm_roads
+          WHERE boundary = 'administrative'
+            AND admin_level = '2'
+            AND tags->'maritime' = 'yes'
+            AND osm_id > 0
+          ORDER BY admin_level DESC
+        ) AS maritime_boundary
+    properties:
+      minzoom: 6
   - id: power-minorline
     geometry: linestring
     <<: *extents

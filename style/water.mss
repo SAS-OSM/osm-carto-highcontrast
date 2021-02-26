@@ -30,7 +30,7 @@
     }
   }
 }
-/*
+
 #water-lines-casing {
   [waterway = 'stream'],
   [waterway = 'ditch'],
@@ -276,7 +276,6 @@
     }
   }
 }
-*/
 
 #text-poly-low-zoom[zoom < 10],
 #text-point[zoom >= 10] {

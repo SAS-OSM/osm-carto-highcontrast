@@ -1349,10 +1349,10 @@
     [way_pixels = null] {
       marker-file: url('symbols/aerodrome.12.svg');
       marker-clip: false;
-      marker-fill: @airtransport;
-      marker-line-color: #000000;
-      marker-line-width: 2;
-      marker-line-opacity: .75;
+//    marker-fill: @airtransport;
+//    marker-line-color: #000000;
+//    marker-line-width: 2;
+//    marker-line-opacity: .75;
     }
   }
 
