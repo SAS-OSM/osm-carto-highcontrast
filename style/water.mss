@@ -22,12 +22,9 @@
   [natural = 'water'],
   [landuse = 'reservoir'],
   [waterway = 'riverbank'] {
-    [zoom >= 0][way_pixels > 3000][way_pixels <= 768000],
-    [zoom >= 17][way_pixels <= 768000] {
-      polygon-fill: @water-color;
-      line-width: 1;
-      line-color: @contrast-color;
-    }
+    polygon-fill: @water-color;
+    line-width: 1;
+    line-color: @contrast-color;
   }
 }
 
