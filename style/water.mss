@@ -23,7 +23,7 @@
   [landuse = 'reservoir'],
   [waterway = 'riverbank'] {
     polygon-fill: @water-color;
-    line-width: 1;
+    line-width: .15;
     line-color: @contrast-color;
   }
 }
