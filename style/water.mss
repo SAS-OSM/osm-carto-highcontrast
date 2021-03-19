@@ -25,6 +25,10 @@
     polygon-fill: @water-color;
     line-width: .15;
     line-color: @contrast-color;
+    [zoom >= 0][way_pixels > 3000][way_pixels <= 768000],
+    [zoom >= 14][way_pixels <= 768000] {
+      line-width: .5;
+    }
   }
 }
 
