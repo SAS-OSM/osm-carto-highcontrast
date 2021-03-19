@@ -41,7 +41,7 @@
 }
 
 #state-names {
-//[zoom >= 4][zoom < 7][way_pixels > 2000],
+  [zoom >= 4][zoom < 7][way_pixels > 2000],
   [zoom >= 6][way_pixels > 2000][way_pixels < 196000] {
     text-name: "[name]";
     text-size: 12;

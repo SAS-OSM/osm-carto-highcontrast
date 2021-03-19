@@ -56,8 +56,6 @@ Layer:
     Datasource:
       file: data/coastlines-split-3857/lines.shp
       type: shape
-    properties:
-      maxzoom: 5
   - id: landcover-low-zoom
     geometry: polygon
     <<: *extents
