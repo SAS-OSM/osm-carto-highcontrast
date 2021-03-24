@@ -2046,7 +2046,7 @@
     }
   }
 
-//[feature = 'landuse_military'],
+  [feature = 'landuse_military'],
   [feature = 'natural_wood'],
   [feature = 'landuse_forest'] {
     [zoom >= 8][way_pixels > 3000][is_building = 'no'],
@@ -2068,9 +2068,10 @@
       text-face-name: @landcover-face-name;
       text-halo-radius: @standard-halo-radius;
       text-halo-fill: @standard-halo-fill;
-//    [feature = 'landuse_military'] {
+      [feature = 'landuse_military'] {
 //      text-fill: darken(@military, 40%);
-//    }
+        text-fill: darken(@military, 0%);
+      }
       [feature = 'boundary_aboriginal_lands'] {
         text-fill: @aboriginal;
       }
