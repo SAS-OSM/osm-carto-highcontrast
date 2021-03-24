@@ -1,5 +1,6 @@
 @marina-text: #576ddf; // also swimming_pool
-@wetland-text: darken(#4aa5fa, 25%); /* Also for mud */
+//@wetland-text: darken(#4aa5fa, 25%); /* Also for mud */
+@wetland-text: darken(#4aa5fa, 0%); /* Also for mud */
 @shop-icon: #ac39ac;
 @shop-text: #939;
 @transportation-icon: #0092da;
@@ -2287,7 +2288,8 @@
       [feature = 'landuse_farm'],
       [feature = 'landuse_farmland'],
       [feature = 'landuse_greenhouse_horticulture'] {
-        text-fill: darken(@farmland, 50%);
+//      text-fill: darken(@farmland, 50%);
+        text-fill: darken(@farmland, 0%);
       }
       [feature = 'shop'][shop = 'mall'],
       [feature = 'landuse_retail'] {
