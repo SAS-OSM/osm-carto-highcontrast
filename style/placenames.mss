@@ -505,6 +505,12 @@
       text-placements: "S,SE,SW,E,NE,W,NW,N";
       text-transform: uppercase;
       [admin_level = '5'] {
+        [zoom >= 10] {
+          text-size: 12;
+          text-wrap-width: 23; // 3.7 em
+          text-line-spacing: -1.2; // -0.10 em
+          text-margin: 8.4; // 0.7 em
+        }
         [zoom >= 12] {
           text-size: 13;
           text-wrap-width: 25; // 3.8 em
