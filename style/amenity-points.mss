@@ -2,9 +2,9 @@
 //@wetland-text: darken(#4aa5fa, 25%); /* Also for mud */
 @wetland-text: darken(#4aa5fa, 0%); /* Also for mud */
 @shop-icon: #ac39ac;
-@shop-text: #bf40bf;
+@shop-text: #d279d2;
 @transportation-icon: #0092da;
-@transportation-text: #1a75ff;
+@transportation-text: #66a3ff;
 @accommodation-icon: @transportation-icon;
 @accommodation-text: @transportation-text;
 @airtransport: #ffffff; //also ferry_terminal
@@ -22,7 +22,7 @@
 @landform-color: #d08f55;
 @leisure-green: #b0ffc4;
 @protected-area: @leisure-green;
-@aboriginal: #9e7a47;
+@aboriginal: #b89461;
 @religious-icon: #000000;
 
 @landcover-font-size: 10;
@@ -1914,7 +1914,7 @@
     text-size: @standard-font-size;
     text-wrap-width: @standard-wrap-width;
     text-line-spacing: @standard-line-spacing-size;
-    text-fill: #808080;
+    text-fill: #999999;
     [feature = 'power_generator']['generator:source' = 'wind'],
     [feature = 'historic_city_gate'],
     [feature = 'man_made_mast'],
@@ -1966,7 +1966,7 @@
     text-size: @standard-font-size;
     text-wrap-width: @standard-wrap-width;
     text-line-spacing: @standard-line-spacing-size;
-    text-fill: #808080;
+    text-fill: #999999;
     text-dy: 10;
     text-face-name: @standard-font;
     text-halo-radius: @standard-halo-radius;
