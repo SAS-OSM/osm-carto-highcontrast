@@ -2123,7 +2123,6 @@
       [feature = 'leisure_nature_reserve'],
       [feature = 'boundary_protected_area'] {
         text-fill: @protected-area;
-	text-size: 11;
       }
     }
   }
