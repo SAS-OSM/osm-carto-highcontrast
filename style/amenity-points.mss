@@ -9,7 +9,7 @@
 @accommodation-text: @transportation-text;
 @airtransport: #ffffff; //also ferry_terminal
 @health-color: #BF0000;
-@amenity-brown: #734a08;
+@amenity-brown: #d78a0f;
 @gastronomy-icon: #C77400;
 @gastronomy-text: darken(@gastronomy-icon, 5%);
 @memorials: @amenity-brown;
