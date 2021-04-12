@@ -16,7 +16,7 @@
 @culture: @amenity-brown;
 @public-service: @amenity-brown;
 @office: #4863A0;
-@man-made-icon: #666666;
+@man-made-icon: #999999;
 @advertising-grey: @man-made-icon;
 @barrier-icon: #3f3f3f;
 @landform-color: #d08f55;

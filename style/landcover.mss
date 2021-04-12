@@ -41,7 +41,7 @@
 
 @bare_ground: #eee5dc;
 @campsite: #def6c0; // also caravan_site, picnic_site
-@cemetery: #619e3a; // also grave_yard
+@cemetery: #66a83e; // also grave_yard
 @construction: #c7c7b4; // also brownfield
 @heath: #d6d99f;
 @mud: rgba(203,177,154,0.3); // produces #e6dcd1 over @land

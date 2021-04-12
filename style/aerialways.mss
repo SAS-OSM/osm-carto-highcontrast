@@ -143,7 +143,7 @@
   [feature = 'man_made_pipeline'] {
     [zoom >= 17] {
       text-name: "[name]";
-      text-fill: #666666;
+      text-fill: #999999;
       text-size: 10;
       text-dy: 4;
       text-spacing: 900;

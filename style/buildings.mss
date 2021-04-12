@@ -12,14 +12,17 @@
 
 #buildings {
   [zoom >= 13] {
-    polygon-fill: #999999;
-    polygon-opacity: .25;
+    polygon-fill: @land-color;
+//  polygon-opacity: .25;
     polygon-clip: false;
+    line-color: @contrast-color;
+    line-width: .5;
+    line-clip: false;
     [zoom >= 17] {
-      line-color: #808080;
+//    line-color: #808080;
       line-width: .7;
-      line-opacity: .25;
-      line-clip: false;
+//    line-opacity: .25;
+//    line-clip: false;
     }
     [amenity = 'place_of_worship'],
     [aeroway = 'terminal'],
