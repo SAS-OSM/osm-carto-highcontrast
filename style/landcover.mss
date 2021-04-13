@@ -68,6 +68,24 @@
 @stadium: @leisure; // also sports_centre
 @golf_course: #88cc00;
 
+#landcover-low-zoom[zoom < 10],
+#landcover[zoom >= 10] {
+  ::low-zoom[zoom < 12] { image-filters: scale-hsla(0,1,0,1,0.2,1,0,1); }
+  ::high-zoom[zoom >= 12]                 { image-filters: scale-hsla(0,1,0,1,0,  1,   0,1); }
+
+  ::low-zoom[zoom < 12],
+  ::high-zoom[zoom >= 12] {
+
+  [feature = 'leisure_pitch'][zoom >= 10] {
+    polygon-fill: @land-color;
+    [zoom >= 15] {
+      line-width: 0.5;
+      line-color: @pitch;
+    }
+  }
+}
+}
+
 #amenity-points {
   [feature = 'aeroway_apron'][zoom >= 10] {
     polygon-fill: @apron;
