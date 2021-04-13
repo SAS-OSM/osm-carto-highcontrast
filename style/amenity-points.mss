@@ -1830,7 +1830,8 @@
     text-fill: @shop-text;
     text-face-name: @standard-font;
     text-halo-radius: @standard-halo-radius;
-    text-halo-fill: rgba(255, 255, 255, 0.6);
+//  text-halo-fill: rgba(255, 255, 255, 0.6);
+    text-halo-fill: rgba(0, 0, 0, 0.6);    
   }
 
   [feature = 'natural_peak'][zoom >= 13],
