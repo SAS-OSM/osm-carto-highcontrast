@@ -1831,7 +1831,7 @@
     text-face-name: @standard-font;
     text-halo-radius: @standard-halo-radius;
 //  text-halo-fill: rgba(255, 255, 255, 0.6);
-    text-halo-fill: rgba(0, 0, 0, 0.6);    
+    text-halo-fill: @standard-halo-fill;
   }
 
   [feature = 'natural_peak'][zoom >= 13],
@@ -2653,7 +2653,8 @@
       text-fill: @shop-text;
       text-face-name: @standard-font;
       text-halo-radius: @standard-halo-radius;
-      text-halo-fill: rgba(255, 255, 255, 0.6);
+      text-halo-fill: @standard-halo-fill;
+//    text-halo-fill: rgba(255, 255, 255, 0.6);
     }
   }
 
@@ -2668,7 +2669,8 @@
       text-fill: @shop-text;
       text-face-name: @standard-font;
       text-halo-radius: @standard-halo-radius;
-      text-halo-fill: rgba(255, 255, 255, 0.6);
+      text-halo-fill: @standard-halo-fill;      
+//    text-halo-fill: rgba(255, 255, 255, 0.6);
       [shop = 'car_repair'] {
         text-fill: @amenity-brown;
       }
@@ -2725,7 +2727,8 @@
         text-fill: @office;
         text-face-name: @standard-font;
         text-halo-radius: @standard-halo-radius;
-        text-halo-fill: rgba(255, 255, 255, 0.6);
+        text-halo-fill: @standard-halo-fill;      	
+//      text-halo-fill: rgba(255, 255, 255, 0.6);
       }
     }
 
@@ -2739,7 +2742,8 @@
       text-fill: @office;
       text-face-name: @standard-font;
       text-halo-radius: @standard-halo-radius;
-      text-halo-fill: rgba(255, 255, 255, 0.6);
+      text-halo-fill: @standard-halo-fill;      
+//    text-halo-fill: rgba(255, 255, 255, 0.6);
     }
   }
 
@@ -2754,7 +2758,8 @@
       text-fill: @office;
       text-face-name: @standard-font;
       text-halo-radius: @standard-halo-radius;
-      text-halo-fill: rgba(255, 255, 255, 0.6);
+      text-halo-fill: @standard-halo-fill;      
+//    text-halo-fill: rgba(255, 255, 255, 0.6);
     }
   }
 
@@ -2769,7 +2774,8 @@
       text-fill: @shop-text;
       text-face-name: @standard-font;
       text-halo-radius: @standard-halo-radius;
-      text-halo-fill: rgba(255, 255, 255, 0.6);
+      text-halo-fill: @standard-halo-fill;      
+//    text-halo-fill: rgba(255, 255, 255, 0.6);
     }
   }
 
