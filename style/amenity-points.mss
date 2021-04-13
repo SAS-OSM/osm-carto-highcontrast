@@ -2295,8 +2295,8 @@
         text-fill: darken(@allotments, 0%);
       }
       [feature = 'landuse_farmyard'] {
-        text-fill: darken(@farmyard, 50%);
-//      text-fill: darken(@farmyard, 0%);
+//      text-fill: darken(@farmyard, 50%);
+        text-fill: darken(@farmyard, 0%);
       }
       [feature = 'landuse_farm'],
       [feature = 'landuse_farmland'],
