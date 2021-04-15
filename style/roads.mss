@@ -4,7 +4,7 @@
 @residential-fill: #000000;
 @service-fill: @residential-fill;
 @living-street-fill: #000000;
-@pedestrian-fill: #dddde8;
+@pedestrian-fill: #000000;
 @raceway-fill: pink;
 @road-fill: #ddd;
 @footway-fill: #fa8072;
@@ -1168,7 +1168,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
      * https://github.com/mapbox/carto/issues/235
      * https://github.com/mapbox/carto/issues/237
      */
-/*     
+/*
     [feature = 'highway_construction'][zoom >= 12] {
       [construction = 'motorway'][zoom >= 12],
       [construction = 'motorway_link'][zoom >= 13],
