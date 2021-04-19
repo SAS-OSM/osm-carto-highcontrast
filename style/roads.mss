@@ -1809,7 +1809,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
       [zoom >= 14][access != 'no'],
       [zoom >= 15] {
         #roads-fill[zoom >= 15] {
-          background/line-color: @steps-casing;
+          background/line-color: #000000;
           background/line-cap: round;
           background/line-join: round;
           background/line-width: @steps-width-z15 + 2 * @paths-background-width;
@@ -1828,7 +1828,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
       [zoom >= 13][access != 'no'],
       [zoom >= 15] {
         #roads-fill[zoom >= 15] {
-          background/line-color: @bridleway-casing;
+          background/line-color: #000000;
           background/line-cap: round;
           background/line-join: round;
           background/line-width: @bridleway-width-z15 + 2 * @paths-background-width;
@@ -1851,7 +1851,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
       [zoom >= 14][access != 'no'],
       [zoom >= 15] {
         #roads-fill[zoom >= 15] {
-          background/line-color: @footway-casing;
+          background/line-color: #000000;
           background/line-cap: round;
           background/line-join: round;
           background/line-width: @footway-width-z15 + 2 * @paths-background-width;
@@ -1932,7 +1932,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
       [zoom >= 13][access != 'no'],
       [zoom >= 15] {
         #roads-fill[zoom >= 15] {
-          background/line-color: @cycleway-casing;
+          background/line-color: #000000;
           background/line-cap: round;
           background/line-join: round;
           background/line-width: @cycleway-width-z15 + 2 * @paths-background-width;
@@ -2014,7 +2014,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         /* The white casing that you mainly see against forests and other dark features */
         #roads-fill[zoom >= 15] {
           background/line-opacity: 0.4;
-          background/line-color: @track-casing;
+          background/line-color: #000000;
           background/line-join: round;
           background/line-cap: round;
           background/line-width: @track-width-z15 + 2 * @paths-background-width;
@@ -2253,7 +2253,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'railway_monorail'] {
       [zoom >= 14] {
         background/line-width: 4;
-        background/line-color: #fff;
+        background/line-color: #000000;
         background/line-opacity: 0.4;
         background/line-cap: round;
         background/line-join: round;
