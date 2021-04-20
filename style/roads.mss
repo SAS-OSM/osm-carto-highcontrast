@@ -26,7 +26,7 @@
 
 @default-casing: white;
 @tertiary-casing: @contrast-color;
-@residential-casing: white;
+@residential-casing: @contrast-color;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
