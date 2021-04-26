@@ -7,13 +7,13 @@
 @pedestrian-fill: #000000;
 @raceway-fill: pink;
 @road-fill: #ddd;
-@footway-fill: #fa8072;
+@footway-fill: #c28a8a;
 @footway-fill-noaccess: #bbbbbb;
 @steps-fill: @footway-fill;
 @steps-fill-noaccess: #bbbbbb;
-@cycleway-fill: #9999ff;
+@cycleway-fill: #8a93c2;
 @cycleway-fill-noaccess: #9999ff;
-@bridleway-fill: green;
+@bridleway-fill:#00b300;
 @bridleway-fill-noaccess: #aaddaa;
 @track-fill: #996600;
 @track-fill-noaccess: #e2c5bb;
@@ -21,7 +21,7 @@
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: #eaeaea;
+@access-marking: @contrast-color;
 @access-marking-living-street: #cccccc;
 
 @default-casing: white;
@@ -314,7 +314,7 @@
 @shield-spacing: 760;
 @shield-repeat-distance: 400;
 @shield-margin: 50;
-@shield-font: @book-fonts;
+@shield-font: @bold-fonts;
 @shield-clip: false;
 
 @major-highway-text-repeat-distance: 50;

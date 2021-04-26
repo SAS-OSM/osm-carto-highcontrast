@@ -1,15 +1,15 @@
 @marina-text: #576ddf; // also swimming_pool
 //@wetland-text: darken(#4aa5fa, 25%); /* Also for mud */
 @wetland-text: darken(#4aa5fa, 0%); /* Also for mud */
-@shop-icon: #ac39ac;
-@shop-text: #d279d2;
-@transportation-icon: #0092da;
-@transportation-text: #66a3ff;
+@shop-icon: #b889b0;
+@shop-text: #b889b0;
+@transportation-icon: #609ec1;
+@transportation-text: #609ec1;
 @accommodation-icon: @transportation-icon;
 @accommodation-text: @transportation-text;
 @airtransport: #ffffff; //also ferry_terminal
 @health-color: #BF0000;
-@amenity-brown: #d78a0f;
+@amenity-brown: #af946a;
 @gastronomy-icon: #C77400;
 @gastronomy-text: darken(@gastronomy-icon, 5%);
 @memorials: @amenity-brown;
