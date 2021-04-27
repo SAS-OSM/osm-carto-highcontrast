@@ -34,7 +34,7 @@
 @path-casing: @default-casing;
 @footway-casing: #000000;
 @steps-casing: @default-casing;
-@cycleway-casing: @default-casing;
+@cycleway-casing: #000000;
 @bridleway-casing: @default-casing;
 @track-casing: @default-casing;
 
