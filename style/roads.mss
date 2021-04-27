@@ -32,7 +32,7 @@
 @living-street-casing: @residential-casing;
 @pedestrian-casing: #999;
 @path-casing: @default-casing;
-@footway-casing: @default-casing;
+@footway-casing: #000000;
 @steps-casing: @default-casing;
 @cycleway-casing: @default-casing;
 @bridleway-casing: @default-casing;
