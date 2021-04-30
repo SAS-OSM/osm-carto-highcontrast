@@ -1022,7 +1022,7 @@
     [feature = 'railway_monorail'][zoom >= 14] {
       #bridges {
         line-width: 5;
-        line-color: white;
+        line-color: @bridge-casing;
         line-join: round;
       }
     }
