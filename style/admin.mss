@@ -362,10 +362,10 @@ Then all three layers are added to the rendering with comp-op: lighten, so that 
   [admin_level = '6'][zoom >= 10]::firstline {
     background/line-join: bevel;
     background/line-color: black;
-    background/line-width: 1;
+    background/line-width: 2;
     line-join: bevel;
     line-color: @contrast-color;
-    line-width: 1;
+    line-width: 2;
     line-dasharray: 4,2,1,2;
     line-clip: false;
     [zoom >= 11] {
@@ -501,10 +501,10 @@ Then all three layers are added to the rendering with comp-op: lighten, so that 
 #protected-areas {
   [way_pixels > 750] {
     [zoom >= 9] {
-      polygon-opacity: .15;    
+      polygon-opacity: .15;
       polygon-fill: #c7ffad;
-*/      
-/*      
+*/
+/*
       // inner line
       ::wideline {
         opacity: 0.15;
