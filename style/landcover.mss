@@ -211,7 +211,7 @@
   [feature = 'amenity_fire_station'][zoom >= 13],
   [feature = 'amenity_police'][zoom >= 13] {
     polygon-fill: @land-color;
-    line-color: #f3e3dd;
+    line-color: #d1927b;
 //  line-opacity: 0.24;
     line-width: 1.0;
     line-offset: -0.5;
