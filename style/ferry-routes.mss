@@ -1,4 +1,4 @@
-@ferry-route: #9999ff;
+@ferry-route: #b3b3ff;
 @ferry-route-text: @ferry-route;
 
 #ferry-routes {

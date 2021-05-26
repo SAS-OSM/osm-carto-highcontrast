@@ -3,15 +3,16 @@
 @wetland-text: darken(#4aa5fa, 0%); /* Also for mud */
 @shop-icon: #b889b0;
 @shop-text: #b889b0;
-@transportation-icon: #609ec1;
-@transportation-text: #609ec1;
+@transportation-icon: #619ebe;
+@transportation-text: #619ebe;
 @accommodation-icon: @transportation-icon;
 @accommodation-text: @transportation-text;
 @airtransport: #ffffff; //also ferry_terminal
-@health-color: #BF0000;
+@health-color: #ff6163;
 @amenity-brown: #af946a;
-@gastronomy-icon: #C77400;
-@gastronomy-text: darken(@gastronomy-icon, 5%);
+@gastronomy-icon: #e18725;
+//@gastronomy-text: darken(@gastronomy-icon, 5%);
+@gastronomy-text: darken(@gastronomy-icon, 0%);
 @memorials: @amenity-brown;
 @culture: @amenity-brown;
 @public-service: @amenity-brown;
@@ -2669,7 +2670,7 @@
       text-fill: @shop-text;
       text-face-name: @standard-font;
       text-halo-radius: @standard-halo-radius;
-      text-halo-fill: @standard-halo-fill;      
+      text-halo-fill: @standard-halo-fill;
 //    text-halo-fill: rgba(255, 255, 255, 0.6);
       [shop = 'car_repair'] {
         text-fill: @amenity-brown;
@@ -2727,7 +2728,7 @@
         text-fill: @office;
         text-face-name: @standard-font;
         text-halo-radius: @standard-halo-radius;
-        text-halo-fill: @standard-halo-fill;      	
+        text-halo-fill: @standard-halo-fill;
 //      text-halo-fill: rgba(255, 255, 255, 0.6);
       }
     }
@@ -2742,7 +2743,7 @@
       text-fill: @office;
       text-face-name: @standard-font;
       text-halo-radius: @standard-halo-radius;
-      text-halo-fill: @standard-halo-fill;      
+      text-halo-fill: @standard-halo-fill;
 //    text-halo-fill: rgba(255, 255, 255, 0.6);
     }
   }
@@ -2758,7 +2759,7 @@
       text-fill: @office;
       text-face-name: @standard-font;
       text-halo-radius: @standard-halo-radius;
-      text-halo-fill: @standard-halo-fill;      
+      text-halo-fill: @standard-halo-fill;
 //    text-halo-fill: rgba(255, 255, 255, 0.6);
     }
   }
@@ -2774,7 +2775,7 @@
       text-fill: @shop-text;
       text-face-name: @standard-font;
       text-halo-radius: @standard-halo-radius;
-      text-halo-fill: @standard-halo-fill;      
+      text-halo-fill: @standard-halo-fill;
 //    text-halo-fill: rgba(255, 255, 255, 0.6);
     }
   }
@@ -2848,7 +2849,7 @@
       }
       [feature = 'natural_sand'] {
 //      text-fill: darken(@sand, 50%);
-        text-fill: darken(@sand, 0%);	
+        text-fill: darken(@sand, 0%);
       }
     }
   }

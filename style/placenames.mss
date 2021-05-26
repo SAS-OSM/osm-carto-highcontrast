@@ -54,7 +54,7 @@
     text-halo-radius: @standard-halo-radius * 1.5;
     text-placement: interior;
     text-transform: uppercase;
-/*    
+/*
     [zoom >= 7] {
       text-size: 11;
       text-wrap-width: 20; // 3.6 em
@@ -67,7 +67,7 @@
       text-line-spacing: -1.2; // -0.10 em
       text-margin: 8.4; // 0.7 em
     }
-*/    
+*/
     [zoom >= 8] {
       text-size: 14;
       text-wrap-width: 25; // 3.8 em
@@ -158,7 +158,7 @@
 
 #placenames-medium::high-importance {
   [category = 1][zoom < 14] {
-//  [zoom >= 5][zoom < 6][score >= 3000000],
+    [zoom >= 5][zoom < 6][score >= 3000000],
     [zoom >= 6][zoom < 9][score >= 600000] {
       shield-file: url('symbols/place/place-4.svg');
       shield-text-dx: 4;
@@ -226,8 +226,8 @@
 
 #placenames-medium::medium-importance {
   [category = 1][score < 400000][zoom < 16] {
-    [zoom >= 8][zoom < 10][score >= 70000] {
-//  [zoom >= 10][zoom < 12] {
+    [zoom >= 6][zoom < 9][score >= 70000],
+    [zoom >= 8][zoom < 9] {
       shield-file: url('symbols/place/place-4.svg');
       shield-text-dx: 4;
       shield-text-dy: 4;
