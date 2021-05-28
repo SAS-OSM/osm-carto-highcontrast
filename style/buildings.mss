@@ -3,7 +3,8 @@
 @building-low-zoom: darken(@building-fill, 4%);
 
 @building-major-fill: darken(@building-fill, 10%);  // Lch(75, 8, 67)
-@building-major-line: darken(@building-major-fill, 15%);  // Lch(61, 13, 65)
+//@building-major-line: darken(@building-major-fill, 15%);  // Lch(61, 13, 65)
+@building-major-line: darken(@building-major-fill, 0%);  // Lch(61, 13, 65)
 @building-major-z15: darken(@building-major-fill, 5%);  // Lch(70, 9, 66)
 @building-major-z14: darken(@building-major-fill, 10%);  // Lch(66, 11, 65)
 
@@ -16,7 +17,7 @@
     polygon-fill: @land-color;
 //  polygon-opacity: .25;
     polygon-clip: false;
-    line-color: @contrast-color;
+    line-color: @building-fill;
     line-width: .5;
     line-clip: false;
     [zoom >= 17] {
