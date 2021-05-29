@@ -1461,7 +1461,7 @@
       [feature = 'amenity_parking_entrance']["parking"='multi-storey'] { marker-file: url('symbols/amenity/parking_entrance_multistorey.svg'); }
       marker-clip: false;
       marker-fill: @transportation-icon;
-      [access != ''][access != 'permissive'][access != 'yes'] { marker-opacity: 0.33; }
+//    [access != ''][access != 'permissive'][access != 'yes'] { marker-opacity: 0.33; }
     }
   }
 }
