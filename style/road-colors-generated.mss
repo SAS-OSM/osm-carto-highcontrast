@@ -17,7 +17,7 @@
 @primary-low-zoom: #000000;
 @secondary-low-zoom: #000000;
 @motorway-low-zoom-casing: @contrast-color;
-@trunk-low-zoom-casing: #000000;
+@trunk-low-zoom-casing: @contrast-color;
 @primary-low-zoom-casing: @contrast-color;
 @secondary-low-zoom-casing: @contrast-color;
 @motorway-shield: #000000;
